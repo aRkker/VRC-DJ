@@ -1,0 +1,16 @@
+A bit of a shitshow to set up, however:
+
+1) Run "yarn" or "npm i" in the folder after cloning to get all the node packages it requires
+2) Youtube-dl's current release version is fucked, so you'll have to manually replace the .exe it downloads (actually downloads a linux binary and just renames it .exe). Get the latest and greatest working one here: https://youtube-dl.org/downloads/latest/youtube-dl.exe
+
+After downloading it, throw it to ./node_modules/youtube-dl/bin/ and replace the old youtube-dl.exe with it
+3) Make sure you got ffmpeg set up so that its accessible in PATH. Test it by running "ffmpeg" on command line
+4) Make yourself a .env file to the root of this repo. its used for configuration of various things, for now theres only 2 ones you need in that file. 
+Add these rows to it:
+
+BOT_TOKEN=[your token here]
+BOT_COMMAND_PREFIX=!
+
+Change both as you see fit, and get yourself the token from https://discordapp.com/developers/applications/me. Create a new application, and a bot user for it and you get the token
+
+5) That should be it, run it by doing "node index.js" on the command line
