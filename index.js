@@ -34,7 +34,7 @@ client.on('message', message => {
     switch (command)
     {
        case "addyt": 
-            commands.handleYoutube(params, message.client);
+            commands.handleYoutube(params, message);
             break;
         default: 
             break;
