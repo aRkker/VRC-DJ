@@ -1,0 +1,13 @@
+{
+  "name": "vrcdj",
+  "version": "0.1",
+  "description": "WACOMalt's Discord bot for his VRC stuff",
+  "main": "index.js",
+  "repository": "https://github.com/aRkker/VRC-DJ.git",
+  "author": "aRkker <arkkerx@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "youtube-dl": "^1.12.2"
+  }
+}
