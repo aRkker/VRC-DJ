@@ -9,6 +9,7 @@
   "dependencies": {
     "discord.js": "^11.3.2",
     "dotenv": "^6.0.0",
+    "fluent-ffmpeg": "^2.1.2",
     "youtube-dl": "^1.12.2"
   }
 }
